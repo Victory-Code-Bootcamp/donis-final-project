@@ -1,3 +1,6 @@
+/* border box makes the width and height value exactly its value */
+* { box-sizing: border-box; }
+
 header{
     text-align: center;
 }
@@ -9,8 +12,27 @@ body{
     color:aqua
 }
 .map{
-    margin: 15%;
+    /* margin: top right bottom left */
+    /* margin: 50px; */
+
+    margin-top: 50px;
 }
 nav{
     text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.form{
+    /* margin: top right bottom left */
+    margin: 50px;
+
+    max-width: 300px;
+
+
 }
