@@ -12,6 +12,7 @@ footer {
 }
 body {
   background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash\ \(1\).jpg");
+  background-size: cover;
   color: aqua;
 }
 .map {
